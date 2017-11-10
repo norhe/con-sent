@@ -1,0 +1,11 @@
+{
+  "datacenter": "east",
+  "data_dir": "/opt/consul/data",
+  "log_level": "INFO",
+  "node_name": "client-1",
+  "bind_addr": "172.20.20.11",
+  "server": false,
+  "retry_join": ["172.20.20.10"],
+  "acl_datacenter": "east",
+  "acl_down_policy": "extend-cache"
+}

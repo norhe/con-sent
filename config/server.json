@@ -1,0 +1,15 @@
+{
+  "datacenter": "east",
+  "data_dir": "/opt/consul/data",
+  "log_level": "INFO",
+  "node_name": "server-1",
+  "server": true,
+  "acl_datacenter": "east",
+  "acl_master_token": "abc123",
+  "acl_down_policy": "extend-cache",
+  "acl_default_policy": "allow",
+  "bootstrap_expect": 1,
+  "ui": true,
+  "bind_addr": "172.20.20.10",
+  "client_addr": "0.0.0.0"
+}
